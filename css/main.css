@@ -1,0 +1,94 @@
+/* main.css */
+
+html, body, h1, h2, h3, h4, p, div, ul, ol, li {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+}
+h1 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #33CCFF
+}
+h2 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	color: #ffffff;
+	width: 650px;
+	margin: 0 auto 0 auto;
+}
+h2 strong {
+	font-weight: 400;
+}
+h3 {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 1px solid #555555;
+	margin: 20px 0 20px 0;
+}
+p {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+}
+a {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #33CCFF;
+	text-decoration: none;
+}
+
+.header {
+	background-color: #999999;
+}
+.tagline {
+	background-color: #000000;
+	padding: 10px 0 10px 0;
+}
+.topics, .schools, .tutorials, .skills {
+	width: 450px;
+	margin: 0 auto;
+}
+.topics ul, .schools ul, .tutorials ul, .skills ul {
+	list-style-type: none;
+}
+.topics li, .schools li, .tutorials li, .skills li{
+	margin-bottom: 10px;
+}
+.schools img {
+	float: left;
+	padding-right: 10px;
+}
+.skills {
+	text-decoration: none;
+	color: black;
+}
+.skills li {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #33CCFF;
+	color: #444444;
+	display: inline;
+	padding: 8px 8px 8px 8px;
+	line-height: 40px;
+}
+.footer {
+	background-color: #888888;
+	color: #777777;
+	text-align: center;
+}
+#git {
+	width: 700px;
+	margin: 0 auto;
+}
