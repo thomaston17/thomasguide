@@ -48,7 +48,6 @@ a:hover {
 	color: #33CCFF;
 	text-decoration: none;
 }
-
 .header {
 	background-color: #999999;
 }
@@ -99,14 +98,38 @@ a:hover {
     padding:0;
     text-align:center;
 }
-.nav li{
-    display:inline;
+.nav li {
+    display: inline;
 }
 .nav a{
-    display:inline-block;
+    display: inline-block;
     padding:10px;
+}
+.selected {
+	text-decoration: underline;
 }
 .topics {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 14px;
+}
+.contact {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+}
+.about, .contact {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+.about img{
+	display: block;
+	margin: 30px auto 30px;
+	border-radius: 100%;
+}
+.topics img {
+	display: block;
+	margin: 30px auto 30px;
+}
+.contact form {
+	margin: 40px 0 45px 0;
 }

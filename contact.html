@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+		<title>The Thomas Guide</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1>The Thomas Guide</h1>
+		</div>
+		<div class="tagline">
+			<h2>Send a Friendly Hello!</h2>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html" class="selected">Contact</a></li>
+			</ul>
+		</div>
+		<div class="contact">
+	    <h3>Contact</h3>
+	    	<p>Have a question? Send me a message!</p>
+	    	<form name="htmlform" method="post" action="html_form_send.php">
+			<table width="450px">
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="first_name">First Name *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="first_name" maxlength="50" size="30">
+			 </td>
+			</tr>
+			 
+			<tr>
+			 <td valign="top">
+			  <label for="last_name">Last Name *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="last_name" maxlength="50" size="30">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="email">Email Address *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="email" maxlength="80" size="30">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="telephone">Telephone Number</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="telephone" maxlength="30" size="30">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="comments">Comments *</label>
+			 </td>
+			 <td valign="top">
+			  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+			 </td>
+			</tr>
+			<tr>
+			 <td colspan="2" style="text-align:center">
+			  <input type="submit" value="Submit">
+			 </td>
+			</tr>
+			</table>
+			</form>
+		</div>
+		<div class="footer">
+			<p><a href="contact.html">&copy; 2015 Thomas Ton. All Rights Reserved.</a></p>
+		</div>
+	</body>
+</html>
