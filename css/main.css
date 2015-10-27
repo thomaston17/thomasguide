@@ -99,7 +99,7 @@ a:hover {
     text-align:center;
 }
 .nav li {
-    display: inline;
+    display: inline-block;
 }
 .nav a{
     display: inline-block;
@@ -131,5 +131,8 @@ a:hover {
 	margin: 30px auto 30px;
 }
 .contact form {
-	margin: 40px 0 45px 0;
+	margin: 10% auto;
+}
+.selfie {
+	max-width: 100%;
 }
