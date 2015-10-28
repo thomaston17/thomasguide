@@ -1,0 +1,45 @@
+/* Attribute Selectors ------------- */
+
+.form-contact {
+  padding: 0 30% 0 30%;
+  background: #f4f7f8;
+
+}
+input[type="email"] {
+  background: #fdfee6;
+}
+
+a[target="_blank"] {
+  color: #39add1;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: .875em;
+  font-weight: 400;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: .75;
+}
+
+.default {
+  background-color: #52bab3;
+}
+
+.error {
+  background-color: #ff784f;
+}
+
+@media (min-width: 769px) {
+  .inln {
+    width: auto;
+    display: inline-block;
+  }
+}
